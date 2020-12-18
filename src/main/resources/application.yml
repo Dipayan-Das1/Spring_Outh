@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /sso-app
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Pass Client Id
+            client-secret:	Pass client secret	
